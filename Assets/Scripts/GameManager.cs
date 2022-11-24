@@ -9,9 +9,14 @@ public class GameManager : MonoBehaviour
     public ShipCell shipCellPrefab;
     public Ship[] p1Ships, p2Ships;
     public ShipCell[,] p1Cells, p2Cells;
-    private bool p1Ready = false, attacker = FIRST;
+    private bool p1Ready, attacker;
+    private int p1DestroyedShipsCnt, p2DestroyedShipsCnt;
     void Start()
     {
+        p1DestroyedShipsCnt = 0;
+        p2DestroyedShipsCnt = 0;
+        p1Ready = false;
+        attacker = FIRST;
         p1Cells = new ShipCell[10,10];
         p2Cells = new ShipCell[10,10];
         p1Ships = new Ship[10];
@@ -159,7 +164,15 @@ public class GameManager : MonoBehaviour
     private void DestroyShip(Ship ship)
     {
         var cells = p1Cells;
-        if (attacker == FIRST) cells = p2Cells;
+        if (attacker == FIRST)
+        {
+            cells = p2Cells;
+            p2DestroyedShipsCnt++;
+        }
+        else
+        {
+            p1DestroyedShipsCnt++;
+        }
         foreach (var cell in ship.GetCells())
         {
             int x = cell.GetX();
@@ -172,6 +185,12 @@ public class GameManager : MonoBehaviour
             if (x + 1 < 10 && y - 1 >= 0) cells[x + 1, y - 1].TakeShot();
             if (x - 1 >= 0 && y + 1 < 10) cells[x - 1, y + 1].TakeShot();
             if (x - 1 >= 0 && y - 1 >= 0) cells[x - 1, y - 1].TakeShot();
+        }
+
+        if (p1DestroyedShipsCnt == 10 || p2DestroyedShipsCnt == 10)
+        {
+            Debug.Log($"Победил игрок");
+            Application.Quit();
         }
     }
     
