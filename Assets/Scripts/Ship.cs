@@ -2,17 +2,25 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ship : MonoBehaviour
+public class Ship
 {
-    // Start is called before the first frame update
-    void Start()
+    private List<ShipCell> cells;
+
+    public Ship()
     {
-        
+        cells = new List<ShipCell>();
     }
 
-    // Update is called once per frame
-    void Update()
+    public List<ShipCell> GetCells() {
+        return cells;
+    }
+
+    public void AddCell(ShipCell cell)
     {
-        
+        cells.Add(cell);
+    }
+
+    void Clear() {
+        cells.Clear();
     }
 }

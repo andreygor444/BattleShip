@@ -2,51 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8945167-c3fc-4211-9322-87033ce56b90" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Prefabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Scenes.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Scenes/.idea/.idea.Scenes.dir/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Scenes/.idea/.idea.Scenes.dir/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Scenes/.idea/.idea.Scenes.dir/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Scenes/.idea/.idea.Scenes.dir/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Scenes/SampleScene.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Scenes/SampleScene.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Scripts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ship.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ship.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Textures.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Textures/Board.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Textures/Board.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Packages/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Packages/packages-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ProjectSettings/AudioManager.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ProjectSettings/ClusterInputManager.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ProjectSettings/DynamicsManager.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ProjectSettings/EditorSettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ProjectSettings/InputManager.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ProjectSettings/MemorySettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ProjectSettings/NavMeshAreas.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ProjectSettings/NetworkManager.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ProjectSettings/PackageManagerSettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ProjectSettings/Physics2DSettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ProjectSettings/PresetManager.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ProjectSettings/ProjectVersion.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ProjectSettings/QualitySettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ProjectSettings/SceneTemplateSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ProjectSettings/TagManager.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ProjectSettings/TimeManager.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ProjectSettings/VFXManager.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ProjectSettings/VersionControlSettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ProjectSettings/XRSettings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ProjectSettings/boot.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Prefabs/ShipCell.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../Prefabs/ShipCell.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ship.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Ship.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShipCell.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ShipCell.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Textures/Board.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../Textures/Board.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,14 +29,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -83,7 +45,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669150689245</updated>
-      <workItem from="1669150694412" duration="7454000" />
+      <workItem from="1669150694412" duration="13370000" />
+      <workItem from="1669206605372" duration="23142000" />
+      <workItem from="1669251088745" duration="503000" />
+      <workItem from="1669252166821" duration="1868000" />
+      <workItem from="1669254489512" duration="9250000" />
     </task>
     <servers />
   </component>
