@@ -11,6 +11,10 @@ public class Ship
         cells = new List<ShipCell>();
     }
 
+    public void Reset() {
+        cells.Clear();
+    }
+
     public List<ShipCell> GetCells() {
         return cells;
     }

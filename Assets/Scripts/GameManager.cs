@@ -42,6 +42,7 @@ public class GameManager : MonoBehaviour
     void MakeShips(Ship[] ships, ShipCell[,] cells)
     {
         int i = 0;
+        for (int j = 0; j < 10; ++j) ships[j].Reset();
         Stack<ShipCell> stack = new Stack<ShipCell>();
         foreach (var cell in cells)
         {
